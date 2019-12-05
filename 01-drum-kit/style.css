@@ -1,0 +1,41 @@
+html {
+    background: url(https://picjumbo.com/wp-content/uploads/beautiful-sunset-over-the-foggy-mountains-scenery-2210x1475.jpg);
+    font-size: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.key {
+    font-size: 2rem;
+    color: white;
+    width: 8rem;
+    border: .5rem solid black;
+    border-radius: 0.5rem;
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+    padding: 1rem 0.5rem;
+    margin: 2rem;
+    text-shadow: 0 0.2rem 0.3rem #ff9900;
+    transition: all 0.2s ease;
+}
+
+.playing {
+    transform: scale(1.2);
+    box-shadow: .2rem .2rem #ff9900;
+}
+
+
+
